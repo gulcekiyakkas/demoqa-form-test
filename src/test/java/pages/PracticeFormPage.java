@@ -2,8 +2,12 @@ package pages;
 
 import locators.PracticeFormLocators;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.time.Duration;
 
 public class PracticeFormPage {
     private final WebDriver driver;
@@ -37,14 +41,20 @@ public class PracticeFormPage {
     }
 
     public void setDateOfBirth(String day, String month, String year) {
-        driver.findElement(PracticeFormLocators.DATE_OF_BIRTH).click();
-        WebElement monthSelect = driver.findElement(By.className("react-datepicker__month-select"));
-        monthSelect.sendKeys(month);
-        WebElement yearSelect = driver.findElement(By.className("react-datepicker__year-select"));
-        yearSelect.sendKeys(year);
-        WebElement dayCell = driver.findElement(By.xpath("//div[contains(@class, 'react-datepicker__day') and text()='" + day + "']"));
-        dayCell.click();
+        driver.findElement(By.id("dateOfBirthInput")).click();
+
+        Select monthSelect = new Select(driver.findElement(By.className("react-datepicker__month-select")));
+        monthSelect.selectByVisibleText(month);
+
+        Select yearSelect = new Select(driver.findElement(By.className("react-datepicker__year-select")));
+        yearSelect.selectByVisibleText(year);
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class, 'react-datepicker__day') and text()='" + Integer.parseInt(day) + "']")));
+
+        driver.findElement(By.xpath("//div[contains(@class, 'react-datepicker__day') and text()='" + Integer.parseInt(day) + "']")).click();
     }
+
 
     public void enterSubject(String subject) {
         WebElement subjectInput = driver.findElement(PracticeFormLocators.SUBJECTS);
@@ -82,10 +92,16 @@ public class PracticeFormPage {
     }
 
     public void selectState(String state) {
-        driver.findElement(PracticeFormLocators.STATE).click();
-        WebElement stateOption = driver.findElement(By.xpath("//div[text()='" + state + "']"));
-        stateOption.click();
+        // 1. Reklam iframe'lerini ve engelleyici div'leri kaldır
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("document.querySelectorAll('iframe, .adplus-anchor, .elementor-popup').forEach(el => el.remove());");
+
+        // 2. Devam et: state alanına veri gönder
+        WebElement stateInput = driver.findElement(By.id("react-select-3-input"));
+        stateInput.sendKeys(state);
+        stateInput.sendKeys(Keys.ENTER);
     }
+
 
     public void selectCity(String city) {
         driver.findElement(PracticeFormLocators.CITY).click();

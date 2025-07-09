@@ -17,7 +17,6 @@ public class PracticeFormLocators {
     }
     public static final By UPLOAD_PICTURE = By.id("uploadPicture");
     public static final By ADDRESS = By.id("currentAddress");
-    public static final By STATE = By.id("react-select-3-input");
     public static final By CITY = By.id("react-select-4-input");
     public static final By SUBMIT = By.id("submit");
     public static final By MODAL = By.className("modal-content");
