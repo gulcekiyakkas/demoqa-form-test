@@ -1,0 +1,18 @@
+# Concepts <firstName> <lastName> <email> <gender> <phone> <date> <subject> <hobby> <path> <address> <state> <city>
+
+* Navigate to form page
+* Enter first name <firstName>
+* Enter last name <lastName>
+* Enter email <email>
+* Select gender <gender>
+* Enter phone number <phone>
+* Select date of birth <date>
+* Select subjects <subject>
+* Select hobbies <hobby>
+* Upload picture <path>
+* Enter current address <address>
+* Select state <state>
+* Select city <city>
+* Click submit button
+* The submission should be successful
+* Close the browser

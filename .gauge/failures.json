@@ -5,7 +5,5 @@
 		"--hide-suggestion",
 		"--simple-console"
 	],
-	"FailedItems": [
-		"specs\\form_invalid_firstname.spec:3"
-	]
+	"FailedItems": []
 }
