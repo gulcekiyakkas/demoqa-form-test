@@ -1,0 +1,149 @@
+# Concepts <firstName> <lastName> <email> <gender> <phone> <date> <subject> <hobby> <path> <address> <state> <city>
+
+* Navigate to form page
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Select gender "<gender>"
+* Enter phone number "<phone>"
+* Set date of birth "<day>", "<month>", "<year>"
+* Enter subject "<subject>"
+* Select multiple hobbies "<hobbies>"
+* Upload picture "<path>"
+* Enter address "<address>"
+* Select state "<state>"
+* Select city "<city>"
+* Click submit button
+* The submission should be successful
+* Close the browser
+
+# Concepts: Form Submission with Invalid Email
+
+* Navigate to form page
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Enter phone number "<phone>"
+* Select gender "<gender>"
+* Click submit button
+* Modal should not be displayed
+* Close the browser
+
+# Concepts : Invalid Email and Empty Phone Number
+
+* Navigate to form page  
+* Enter first name "<firstName>"  
+* Enter last name "<lastName>"  
+* Enter email "<email>"  
+* Enter phone number "<phone>"  
+* Select gender "<gender>"  
+* Click submit button  
+* Modal should not be displayed  
+* Close the browser
+
+# Concepts : Invalid First Name Characters
+
+* Navigate to form page  
+* Enter first name "<firstName>"  
+* Enter last name "<lastName>"  
+* Enter email "<email>"  
+* Enter phone number "<phone>"  
+* Select gender "<gender>"  
+* Click submit button  
+* Modal should not be displayed  
+* Close the browser
+
+# Concepts : Invalid Phone Number
+
+* Navigate to form page
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Enter phone number "<phone>"
+* Select gender "<gender>"
+* Click submit button
+* Modal should not be displayed
+* Close the browser
+
+# Concepts <firstName> <lastName>
+
+* Navigate to form page
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Click submit button
+* Modal should not be displayed
+* Close the browser
+
+# Concepts : Missing Firstname
+
+Concepts <lastName> <email> <phone> <gender>
+
+* Navigate to form page
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Enter phone number "<phone>"
+* Select gender "<gender>"
+* Click submit button
+
+# Concepts: Missing Phone Submission
+
+* Navigate to form page
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Select gender "<gender>"
+* Click submit button
+* Modal should not be displayed
+* Close the browser
+
+# Concept Heading
+Concepts <firstName> <lastName> <email> <phone> <gender> <date> <subject> <hobbies> <path> <address> <state> <city>
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Enter phone number "<phone>"
+* Select gender "<gender>"
+* Set date of birth "<day>", "<month>", "<year>"
+* Enter subject "<subject>"
+* Select multiple hobbies "<hobbies>"
+* Upload picture "<path>"
+* Enter address "<address>"
+* Select state "<state>"
+* Select city "<city>"
+
+# Concepts : Multiple Subject
+
+* Navigate to form page  
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Enter phone number "<phone>"
+* Select gender "<gender>"
+* Enter multiple subjects "<subjects>"
+* Click submit button
+* The submission should be successful  
+* Close the browser
+
+# Concepts <firstName> <lastName> <email> <phone> <gender>
+
+* Navigate to form page
+* Enter first name "<firstName>"
+* Enter last name "<lastName>"
+* Enter email "<email>"
+* Enter phone number "<phone>"
+* Select gender "<gender>"
+* Click submit button
+* The submission should be successful
+* Close the browser
+
+# Concepts : Missing Last Name
+
+* Navigate to form page  
+* Enter first name "<firstName>"  
+* Enter last name "<lastName>"  
+* Enter email "<email>"  
+* Enter phone number "<phone>"  
+* Select gender "<gender>"  
+* Click submit button  
+* Modal should not be displayed  
+* Close the browser

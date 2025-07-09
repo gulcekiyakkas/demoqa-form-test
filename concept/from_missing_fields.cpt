@@ -1,8 +1,0 @@
-# Concepts <firstName> <lastName>
-
-* Navigate to form page
-* Enter first name "<firstName>"
-* Enter last name "<lastName>"
-* Click submit button
-* The submission should not be successful
-* Close the browser

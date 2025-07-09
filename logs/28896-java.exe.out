@@ -1,0 +1,95 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4 (file:/C:/Users/gulce/.m2/repository/io/grpc/grpc-netty-shaded/1.72.0/grpc-netty-shaded-1.72.0.jar)
+WARNING: Please consider reporting this to the maintainers of class io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0$4
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+{"logLevel":"debug","message":"gauge-java took 1967milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1967"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 65496"}
+{"logLevel":"info","message":"Listening on port:65496"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.enterLastName' and 'step_implementation.PracticeFormSteps.enterLastName'"}
+{"logLevel":"debug","message":"Found Enter last name {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.enterAddress' and 'step_implementation.PracticeFormSteps.enterAddress'"}
+{"logLevel":"debug","message":"Found Enter address {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.setDateOfBirth' and 'step_implementation.PracticeFormSteps.setDateOfBirth'"}
+{"logLevel":"debug","message":"Found Set date of birth {}, {}, {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.closeBrowser' and 'step_implementation.PracticeFormSteps.closeBrowser'"}
+{"logLevel":"debug","message":"Found Close the browser in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.enterFirstName' and 'step_implementation.PracticeFormSteps.enterFirstName'"}
+{"logLevel":"debug","message":"Found Enter first name {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.selectCity' and 'step_implementation.PracticeFormSteps.selectCity'"}
+{"logLevel":"debug","message":"Found Select city {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.navigateToFormPage' and 'step_implementation.PracticeFormSteps.navigateToFormPage'"}
+{"logLevel":"debug","message":"Found Navigate to form page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.assertModalNotVisible' and 'step_implementation.PracticeFormSteps.assertModalNotVisible'"}
+{"logLevel":"debug","message":"Found Modal should not be displayed in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.clickSubmitButton' and 'step_implementation.PracticeFormSteps.clickSubmitButton'"}
+{"logLevel":"debug","message":"Found Click submit button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.uploadPicture' and 'step_implementation.PracticeFormSteps.uploadPicture'"}
+{"logLevel":"debug","message":"Found Upload picture {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.selectState' and 'step_implementation.PracticeFormSteps.selectState'"}
+{"logLevel":"debug","message":"Found Select state {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.enterMultipleSubjects' and 'step_implementation.PracticeFormSteps.enterMultipleSubjects'"}
+{"logLevel":"debug","message":"Found Enter multiple subjects {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.selectMultipleHobbies' and 'step_implementation.PracticeFormSteps.selectMultipleHobbies'"}
+{"logLevel":"debug","message":"Found Select multiple hobbies {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.enterEmail' and 'step_implementation.PracticeFormSteps.enterEmail'"}
+{"logLevel":"debug","message":"Found Enter email {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.assertModalVisible' and 'step_implementation.PracticeFormSteps.assertModalVisible'"}
+{"logLevel":"debug","message":"Found The submission should be successful in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.selectHobby' and 'step_implementation.PracticeFormSteps.selectHobby'"}
+{"logLevel":"debug","message":"Found Select hobby {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.selectGender' and 'step_implementation.PracticeFormSteps.selectGender'"}
+{"logLevel":"debug","message":"Found Select gender {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.enterPhone' and 'step_implementation.PracticeFormSteps.enterPhone'"}
+{"logLevel":"debug","message":"Found Enter phone number {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step_implementation.PracticeFormSteps.enterSubject' and 'step_implementation.PracticeFormSteps.enterSubject'"}
+{"logLevel":"debug","message":"Found Enter subject {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEnter first name {} : public void enterFirstName(String name)"}
+{"logLevel":"debug","message":"\tEnter multiple subjects {} : public void enterMultipleSubjects(String subjects)"}
+{"logLevel":"debug","message":"\tSelect multiple hobbies {} : public void selectMultipleHobbies(String hobbies)"}
+{"logLevel":"debug","message":"\tEnter email {} : public void enterEmail(String email)"}
+{"logLevel":"debug","message":"\tThe submission should be successful : public void assertModalVisible()"}
+{"logLevel":"debug","message":"\tNavigate to form page : public void navigateToFormPage()"}
+{"logLevel":"debug","message":"\tClick submit button : public void clickSubmitButton()"}
+{"logLevel":"debug","message":"\tSelect gender {} : public void selectGender(String gender)"}
+{"logLevel":"debug","message":"\tUpload picture {} : public void uploadPicture(String path)"}
+{"logLevel":"debug","message":"\tEnter last name {} : public void enterLastName(String lastName)"}
+{"logLevel":"debug","message":"\tSelect state {} : public void selectState(String state)"}
+{"logLevel":"debug","message":"\tModal should not be displayed : public void assertModalNotVisible()"}
+{"logLevel":"debug","message":"\tSet date of birth {}, {}, {} : public void setDateOfBirth(String day, String month, String year)"}
+{"logLevel":"debug","message":"\tClose the browser : public void closeBrowser()"}
+{"logLevel":"debug","message":"\tEnter subject {} : public void enterSubject(String subject)"}
+{"logLevel":"debug","message":"\tSelect city {} : public void selectCity(String city)"}
+{"logLevel":"debug","message":"\tSelect hobby {} : public void selectHobby(String hobby)"}
+{"logLevel":"debug","message":"\tEnter phone number {} : public void enterPhone(String phone)"}
+{"logLevel":"debug","message":"\tEnter address {} : public void enterAddress(String address)"}
+Tem 09, 2025 9:06:48 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Tem 09, 2025 9:06:48 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.101. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Navigate to form page' using 'class step_implementation.PracticeFormSteps.navigateToFormPage"}
+Tem 09, 2025 9:06:50 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Tem 09, 2025 9:06:50 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.101. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Enter first name {}' using 'class step_implementation.PracticeFormSteps.enterFirstName"}
+{"logLevel":"debug","message":"Executing 'Enter last name {}' using 'class step_implementation.PracticeFormSteps.enterLastName"}
+{"logLevel":"debug","message":"Executing 'Enter email {}' using 'class step_implementation.PracticeFormSteps.enterEmail"}
+{"logLevel":"debug","message":"Executing 'Enter phone number {}' using 'class step_implementation.PracticeFormSteps.enterPhone"}
+{"logLevel":"debug","message":"Executing 'Select gender {}' using 'class step_implementation.PracticeFormSteps.selectGender"}
+{"logLevel":"debug","message":"Executing 'Click submit button' using 'class step_implementation.PracticeFormSteps.clickSubmitButton"}
+{"logLevel":"debug","message":"Executing 'Modal should not be displayed' using 'class step_implementation.PracticeFormSteps.assertModalNotVisible"}
+{"logLevel":"debug","message":"Executing 'Close the browser' using 'class step_implementation.PracticeFormSteps.closeBrowser"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
