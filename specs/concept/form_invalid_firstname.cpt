@@ -1,0 +1,11 @@
+# Concepts : Invalid First Name Characters
+
+* Navigate to form page  
+* Enter first name "<firstName>"  
+* Enter last name "<lastName>"  
+* Enter email "<email>"  
+* Enter phone number "<phone>"  
+* Select gender "<gender>"  
+* Click submit button  
+* Modal should not be displayed  
+* Close the browser  

@@ -1,0 +1,134 @@
+src\test\java\driver\Driver.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\Driver.java:10: error: cannot find symbol
+    public static WebDriver webDriver;
+                  ^
+  symbol:   class WebDriver
+  location: class Driver
+src\test\java\driver\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src\test\java\driver\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\driver\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\driver\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src\test\java\driver\DriverFactory.java:7: error: package org.openqa.selenium.ie does not exist
+import org.openqa.selenium.ie.InternetExplorerDriver;
+                             ^
+src\test\java\driver\DriverFactory.java:8: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src\test\java\driver\DriverFactory.java:15: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src\test\java\step_implementation\PracticeFormSteps.java:4: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src\test\java\step_implementation\PracticeFormSteps.java:5: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\step_implementation\PracticeFormSteps.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\step_implementation\PracticeFormSteps.java:7: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\step_implementation\PracticeFormSteps.java:10: error: cannot find symbol
+    private static WebDriver driver;
+                   ^
+  symbol:   class WebDriver
+  location: class PracticeFormSteps
+src\test\java\driver\DriverFactory.java:22: error: cannot find symbol
+                WebDriverManager.iedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:23: error: cannot find symbol
+                return new InternetExplorerDriver();
+                           ^
+  symbol:   class InternetExplorerDriver
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:25: error: cannot find symbol
+                WebDriverManager.firefoxdriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:26: error: cannot find symbol
+                return new FirefoxDriver();
+                           ^
+  symbol:   class FirefoxDriver
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:29: error: cannot find symbol
+                WebDriverManager.chromedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+	            ChromeOptions options = new ChromeOptions();
+	            ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:31: error: cannot find symbol
+	            ChromeOptions options = new ChromeOptions();
+	                                        ^
+  symbol:   class ChromeOptions
+  location: class DriverFactory
+src\test\java\driver\DriverFactory.java:37: error: cannot find symbol
+	            return new ChromeDriver(options);
+	                       ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+src\test\java\step_implementation\PracticeFormSteps.java:14: error: cannot find symbol
+        WebDriverManager.chromedriver().setup();
+        ^
+  symbol:   variable WebDriverManager
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:15: error: cannot find symbol
+        driver = new ChromeDriver();
+                     ^
+  symbol:   class ChromeDriver
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:22: error: cannot find symbol
+        driver.findElement(By.id("firstName")).sendKeys(ad);
+                           ^
+  symbol:   variable By
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:23: error: cannot find symbol
+        driver.findElement(By.id("lastName")).sendKeys(soyad);
+                           ^
+  symbol:   variable By
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:28: error: cannot find symbol
+        driver.findElement(By.id("userEmail")).sendKeys(email);
+                           ^
+  symbol:   variable By
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:33: error: cannot find symbol
+        driver.findElement(By.xpath("//label[text()='" + gender + "']")).click();
+                           ^
+  symbol:   variable By
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:38: error: cannot find symbol
+        driver.findElement(By.id("userNumber")).sendKeys(tel);
+                           ^
+  symbol:   variable By
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:43: error: cannot find symbol
+        driver.findElement(By.id("submit")).click();
+                           ^
+  symbol:   variable By
+  location: class PracticeFormSteps
+src\test\java\step_implementation\PracticeFormSteps.java:48: error: cannot find symbol
+        boolean popupVisible = driver.findElement(By.id("example-modal-sizes-title-lg")).isDisplayed();
+                                                  ^
+  symbol:   variable By
+  location: class PracticeFormSteps
+31 errors
