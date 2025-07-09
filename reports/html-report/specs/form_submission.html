@@ -31,11 +31,11 @@
    
   <div class="report_chart">
     <div class="chart">
-      <svg id="pie-chart" data-results="0,1,0" data-total="1">
+      <svg id="pie-chart" data-results="1,0,0" data-total="1">
         <path class="status failed" />
-        <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
+        <path class="shadow failed" data-status="failed"><title>Failed: 1/1</title></path>
         <path class="status passed" />
-        <path class="shadow passed" data-status="passed"><title>Passed: 1/1</title></path>
+        <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
         <path class="status skipped" />
         <path class="shadow skipped" data-status="skipped"><title>Skipped: 0/1</title></path>
       </svg>
@@ -46,14 +46,14 @@
   <div class="report_test-results">
     <div class="report_test-result specs">
         <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
-        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
-        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">1</span></div>
+        <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">1</span></div>
+        <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
         <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">0</span></div>
     </div>
     <div class="report_test-result scenarios">
         <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">1</span></div>
-        <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
-        <div class="pass scenario-stats" data-status="passed"><span class="value">1</span></div>
+        <div class="fail scenario-stats" data-status="failed"><span class="value">1</span></div>
+        <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
         <div class="skip scenario-stats" data-status="skipped"><span class="value">0</span></div>
     </div>
   </div>
@@ -68,15 +68,15 @@
     
     <li>
       <label>Success Rate </label>
-      <span>100%</span>
+      <span>0%</span>
     </li>
     <li>
       <label>Total Time </label>
-      <span>00:00:15</span>
+      <span>00:00:05</span>
     </li>
     <li>
       <label>Generated On </label>
-      <span>Jul 9, 2025 at 1:54pm</span>
+      <span>Jul 9, 2025 at 4:21pm</span>
     </li>
   </ul>
 
@@ -114,11 +114,11 @@
         <ul id="scenarios" class="spec-list">
         
           <a href="form_submission.html">
-             
-              <li class="passed spec-name">
+            
+              <li class="failed spec-name">
             
               <span id="scenarioName" class="scenarioname">Senaryolar</span>
-              <span id="time" class="time">00:00:10</span>
+              <span id="time" class="time">00:00:00</span>
             </li>
           </a>
           
@@ -136,8 +136,8 @@
         <h3 class="spec-head" title="C:\Users\gulce\OneDrive\Masaüstü\demoqa-form-test\specs\form_submission.spec">Senaryolar</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
-            <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">1</span><span class="txt">Passed</span></li>
+            <li class="fail"><span class="value">1</span><span class="txt">Failed</span></li>
+            <li class="pass"><span class="value">0</span><span class="txt">Passed</span></li>
             <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
@@ -150,7 +150,7 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:00:10</span>
+        <span class="time">00:00:00</span>
       </div>
 
 	
@@ -178,14 +178,14 @@
       
         
 	
-  <div class="scenario-container passed">
+  <div class="scenario-container failed">
     
 
 	
   <div class="scenario-head">
     <h3 class="head borderBottom">Scenario: Positive Form Submission</h3>
     
-    <span class="time">00:00:10</span>
+    <span class="time">00:00:00</span>
 
 	
   
@@ -216,10 +216,10 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:07</span>
+      <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info failed">
   
   <ul>
     <li class="step">
@@ -246,6 +246,28 @@
   </div>
 
   
+    
+        
+  <div class="error-container failed">
+    <div class="exception-container">
+      <div class="exception">
+        <h4 class="error-message">
+          <pre>java.lang.IllegalStateException: chromedriver must exist: C:\Users\gulce\OneDrive\Masaüstü\demoqa-form-test\drivers\chromedriver.exe</pre>
+        </h4>
+        <pre class="stacktrace">java.lang.IllegalStateException: chromedriver must exist: C:\Users\gulce\OneDrive\Masaüstü\demoqa-form-test\drivers\chromedriver.exe<br/>	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:346)<br/>	at org.openqa.selenium.internal.Require$FileStateChecker.isExecutable(Require.java:368)<br/>	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:118)<br/>	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)<br/>	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)<br/>	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)<br/>	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)<br/>	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:51)<br/>	at utils.DriverManager.getDriver(DriverManager.java:12)<br/>	at step_implementation.PracticeFormSteps.&lt;init&gt;(PracticeFormSteps.java:10)<br/>	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)<br/>	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br/>	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:79)<br/>	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:194)<br/>	at java.base/java.lang.Class.newInstance(Class.java:711)<br/>	at com.thoughtworks.gauge.DefaultClassInitializer.initialize(DefaultClassInitializer.java:12)<br/>	at com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:29)<br/>	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59)<br/>	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41)<br/>	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14)<br/>	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33)<br/>	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19)<br/>	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44)<br/>	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166)<br/>	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)<br/>	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)<br/>	at java.base/java.lang.Thread.run(Thread.java:1447)<br/></pre>
+      </div>
+      
+         <div class="screenshot-container">
+          <div class="screenshot">
+            <a href="../images/screenshot-ace021bd-421b-499e-8595-578e381bbdf1.png" rel="lightbox">
+              <img src="../images/screenshot-ace021bd-421b-499e-8595-578e381bbdf1.png" class="screenshot-thumbnail" />
+            </a>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
     
     
   
@@ -279,10 +301,10 @@
   
   
     <h5 class="execution-time">
-      <span class="time">Execution Time : 00:00:01</span>
+      <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -349,7 +371,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -416,7 +438,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -483,7 +505,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -550,7 +572,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -617,7 +639,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -680,7 +702,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
@@ -743,7 +765,7 @@
       <span class="time">Execution Time : 00:00:00</span>
     </h5>
   
-  <div class="step-info passed">
+  <div class="step-info not-executed">
   
   <ul>
     <li class="step">
